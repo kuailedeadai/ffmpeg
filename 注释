@@ -1,0 +1,5 @@
+//daimeng 2019/10/25
+//version ffmpeg_2.1.8
+//此项目用于采集编码音频和视频  后面用于合成mp4或者rtmp推流都可以
+
+//x264和libyuv直接采用采用android.mk编译源码  由于ffmpeg实在太大，采用linux编译出.a文件和头文件
